@@ -16,7 +16,7 @@ The tool does the following to text typed into the message pane, or a drag & dro
 
 Now we have extremely high entropy and it stands out like a sore thumb. To stop drawing attention to yourself, the tool next does
 
-4. Form the Huffman encoding of english text from Tolstoy’s “War and Peace” using a 3-level Hidden Markov Model to make the resulting plain text look like real sentences. The content is pure gibberish, but you have to look closely to see that. This is a better approach than just choosing random words.
+4. Form the Huffman encoding of English text from Tolstoy’s “War and Peace” using a 3-level Hidden Markov Model to make the resulting plain text look like real sentences. The content is pure gibberish, but you have to look closely to see that. This is a better approach than just choosing random words.
 
 The text is confidentially encoded, not airtight encryption, but it avoids sniffers looking for high-entropy crypto text, and you have to take the whole message or you get nothing. Furthermore, you can’t reveal anything under duress about the key because you truly don’t know what it is. (Warning… that may not save your neck!) But in front of a judge you can truthfully state that you don’t know the decryption key.
 
