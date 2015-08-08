@@ -1,5 +1,6 @@
 # AONT-Tolstoy
 Crypto for the masses
+
 Here’s another submission to everyone, no restrictions imposed. This one is rather more complete, providing GUI interface, as well as precompiled standalone versions for Mac and Windows.
 
 AONT-Tolstoy:  1-click encode / decode of confidential information — no keys needed
