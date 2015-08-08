@@ -8,7 +8,7 @@ First up AONT = All Or Nothing Transforms = a secure way to transmit a document 
 
 The tool does the following to text typed into the message pane, or a drag & drop collection of files, or a collection of files from the Files menu:
 
-1. Compress the text using Lempel-Zip self-describing lossless compression to squeeze out the waste and heighten innate entropy
+1. Compress the text using Lempel-Ziv self-describing lossless compression to squeeze out the waste and heighten innate entropy
 
 2. Encrypt the compressed data with AES-256 and a randomly chosen key. You don’t know what that key is, and you don’t need to know.
 
