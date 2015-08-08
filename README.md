@@ -43,5 +43,13 @@ Each time you run this it will generate totally different apparently random outp
 
 What we are doing here is akin to spectral shaping, but applied to the histogram of the plaintext message. We first whiten the message = maximum entropy encoding, then impress the histogram of “War and Peace” on that white histogram to produce the colored histogram that appears to be English prose. High entropy encoding implies compression. The impressing of English prose statistics implies re-inflation.
 
+What prompted me to write this is the work I was doing for a local Patent Attorney, who had a habit of sending all preliminary documents in the clear. With all the industrial espionage going on, I didn’t think that was serving his clients very well. So I wrote this for him, and made it as tight as I could without requiring the interchange of keys, and realizing that most people aren’t computer savvy.
+
+… apart from that, it was a lot of fun seeing that I could shape histograms at will, much like I shape audio spectra with filtering.
+
+Tolstoy’s “War and Peace” was substantial enough, more than 700K words, 100K sentences, that decent statistics could be gathered. The AONT-Tolstoy actually attempts to break up the structure into paragraphs of varying length, rather than just one big glob of text. The breakup is also structured after the statistics inherent in the original manuscript, showing Exponential distributions of sentences with an average length of 15 words, and another Exponential distribution of paragraphs with an average of 3 sentences. 
+
+The 3-layer HMM was also interesting to write.
+
 - DM
 
